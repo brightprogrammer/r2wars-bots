@@ -1,0 +1,323 @@
+RANKING
+==============
+Combat 36 / 36
+
+1 amphibia.arm-32 7,00 (7-0-1 with 14 overall).
+1 old-flacucho.arm-32 7,00 (7-0-1 with 14 overall).
+3 theta.arm-32 6,50 (6-1-1 with 13 overall).
+4 kamehameha.x86-32 4,00 (4-0-4 with 9 overall).
+5 x3ero0.arm-32 3,50 (3-1-4 with 8 overall).
+6 zeta.arm-32 3,00 (3-0-5 with 7 overall).
+7 ricardoapl.x86-32 2,00 (2-0-6 with 4 overall).
+8 newbot.x86-32 2,00 (2-0-6 with 3 overall).
+9 amaterasu.x86-32 1,00 (1-0-7 with 3 overall).
+
+FULL LOG
+==============
+Tournament start 02/10/2021 21:14:52
+Combat initialized 1 amaterasu.x86-32 vs amphibia.arm-32
+    Round-1 amphibia.arm-32 Wins Cycles:37
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000003d5      invalid
+    Round-2 amphibia.arm-32 Wins Cycles:60
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x0000032a      add byte [eax], al
+Combat Winner: amphibia.arm-32
+Combat initialized 2 kamehameha.x86-32 vs newbot.x86-32
+    Round-1 kamehameha.x86-32 Wins Cycles:24
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000000f2      add byte [eax], al
+    Round-2 TIMEOUT Cycles:2001
+    Round-2 TIMEOUT Cycles:2001
+    Round-2 kamehameha.x86-32 Wins Cycles:39
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000003ee      add byte [eax], al
+Combat Winner: kamehameha.x86-32
+Combat initialized 3 old-flacucho.arm-32 vs ricardoapl.x86-32
+    Round-1 old-flacucho.arm-32 Wins Cycles:36
+     Dead Reason     : Syscall/Int Instruction executed.
+     Dead Instruction: 0x000000f4      int3
+    Round-2 old-flacucho.arm-32 Wins Cycles:113
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x00000128      invalid
+Combat Winner: old-flacucho.arm-32
+Combat initialized 4 theta.arm-32 vs x3ero0.arm-32
+    Round-1 TIMEOUT Cycles:2001
+    Round-1 TIMEOUT Cycles:2001
+    Round-1 TIMEOUT Cycles:2001
+Combat Winner: Draw
+Combat initialized 5 amaterasu.x86-32 vs kamehameha.x86-32
+    Round-1 kamehameha.x86-32 Wins Cycles:51
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000094      add byte [eax], al
+    Round-2 kamehameha.x86-32 Wins Cycles:132
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000001c9      add eax, dword [eax]
+Combat Winner: kamehameha.x86-32
+Combat initialized 6 amphibia.arm-32 vs newbot.x86-32
+    Round-1 amphibia.arm-32 Wins Cycles:62
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000003c9      jmp [0x2dffffe9]
+    Round-2 amphibia.arm-32 Wins Cycles:33
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x0000023c      invalid
+Combat Winner: amphibia.arm-32
+Combat initialized 7 old-flacucho.arm-32 vs theta.arm-32
+    Round-1 old-flacucho.arm-32 Wins Cycles:44
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x00000208      invalid
+    Round-2 theta.arm-32 Wins Cycles:156
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000158      push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, sp, lr, pc}
+    Round-3 old-flacucho.arm-32 Wins Cycles:227
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x00000028      invalid
+Combat Winner: old-flacucho.arm-32
+Combat initialized 8 ricardoapl.x86-32 vs x3ero0.arm-32
+    Round-1 x3ero0.arm-32 Wins Cycles:115
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x0000012d      add byte [eax], al
+    Round-2 x3ero0.arm-32 Wins Cycles:116
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x0000012d      add byte [eax], al
+Combat Winner: x3ero0.arm-32
+Combat initialized 9 amaterasu.x86-32 vs newbot.x86-32
+    Round-1 newbot.x86-32 Wins Cycles:49
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x00000391      invalid
+    Round-2 newbot.x86-32 Wins Cycles:150
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x00000126      invalid
+Combat Winner: newbot.x86-32
+Combat initialized 10 amphibia.arm-32 vs kamehameha.x86-32
+    Round-1 amphibia.arm-32 Wins Cycles:140
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x00000008      invalid
+    Round-2 amphibia.arm-32 Wins Cycles:127
+     Dead Reason     : Executed invalid instruction out of ARENA
+     Dead Instruction: 0xe92e0093      invalid
+Combat Winner: amphibia.arm-32
+Combat initialized 11 old-flacucho.arm-32 vs x3ero0.arm-32
+    Round-1 old-flacucho.arm-32 Wins Cycles:150
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000000a0      push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, sp, lr, pc}
+    Round-2 old-flacucho.arm-32 Wins Cycles:129
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x0000008c      pushge {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, sp, lr, pc}
+Combat Winner: old-flacucho.arm-32
+Combat initialized 12 ricardoapl.x86-32 vs theta.arm-32
+    Round-1 theta.arm-32 Wins Cycles:43
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000001e0      invalid
+    Round-2 theta.arm-32 Wins Cycles:44
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000001e0      invalid
+Combat Winner: theta.arm-32
+Combat initialized 13 amaterasu.x86-32 vs old-flacucho.arm-32
+    Round-1 old-flacucho.arm-32 Wins Cycles:103
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x0000026d      add al, byte [eax]
+    Round-2 old-flacucho.arm-32 Wins Cycles:50
+     Dead Reason     : Executed invalid instruction out of ARENA
+     Dead Instruction: 0xffffffff      invalid
+Combat Winner: old-flacucho.arm-32
+Combat initialized 14 amphibia.arm-32 vs ricardoapl.x86-32
+    Round-1 amphibia.arm-32 Wins Cycles:52
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000111      add byte [eax], al
+    Round-2 amphibia.arm-32 Wins Cycles:41
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000109      jmp [0x2dffffe9]
+Combat Winner: amphibia.arm-32
+Combat initialized 15 kamehameha.x86-32 vs theta.arm-32
+    Round-1 theta.arm-32 Wins Cycles:69
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000000ed      adc byte [edi], 0
+    Round-2 theta.arm-32 Wins Cycles:70
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000000ed      adc byte [edi], 0
+Combat Winner: theta.arm-32
+Combat initialized 16 newbot.x86-32 vs x3ero0.arm-32
+    Round-1 x3ero0.arm-32 Wins Cycles:45
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000003e0      invalid
+    Round-2 x3ero0.arm-32 Wins Cycles:44
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000003e0      invalid
+Combat Winner: x3ero0.arm-32
+Combat initialized 17 amaterasu.x86-32 vs ricardoapl.x86-32
+    Round-1 ricardoapl.x86-32 Wins Cycles:83
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000002c0      invalid
+    Round-2 ricardoapl.x86-32 Wins Cycles:114
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000000d4      invalid
+Combat Winner: ricardoapl.x86-32
+Combat initialized 18 amphibia.arm-32 vs theta.arm-32
+    Round-1 theta.arm-32 Wins Cycles:69
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000000d8      push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, sp, lr, pc}
+    Round-2 theta.arm-32 Wins Cycles:54
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000188      push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, sp, lr, pc}
+Combat Winner: theta.arm-32
+Combat initialized 19 kamehameha.x86-32 vs x3ero0.arm-32
+    Round-1 x3ero0.arm-32 Wins Cycles:113
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000089      jmp [0x2dffffe9]
+    Round-2 x3ero0.arm-32 Wins Cycles:114
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000089      jmp [0x2dffffe9]
+Combat Winner: x3ero0.arm-32
+Combat initialized 20 newbot.x86-32 vs old-flacucho.arm-32
+    Round-1 old-flacucho.arm-32 Wins Cycles:51
+     Dead Reason     : Executed invalid instruction out of ARENA
+     Dead Instruction: 0xe25ff410      invalid
+    Round-2 old-flacucho.arm-32 Wins Cycles:48
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000129      jmp [0x5ff028e9]
+Combat Winner: old-flacucho.arm-32
+Combat initialized 21 amaterasu.x86-32 vs theta.arm-32
+    Round-1 theta.arm-32 Wins Cycles:51
+     Dead Reason     : Executed invalid instruction out of ARENA
+     Dead Instruction: 0xe92e01df      invalid
+    Round-2 theta.arm-32 Wins Cycles:68
+     Dead Reason     : Executed invalid instruction out of ARENA
+     Dead Instruction: 0xe92e00a3      invalid
+Combat Winner: theta.arm-32
+Combat initialized 22 amphibia.arm-32 vs x3ero0.arm-32
+    Round-1 amphibia.arm-32 Wins Cycles:126
+     Dead Reason     : Executed invalid instruction out of ARENA
+     Dead Instruction: 0x00002238      invalid
+    Round-2 x3ero0.arm-32 Wins Cycles:166
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000100      push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, sp, lr, pc}
+    Round-3 amphibia.arm-32 Wins Cycles:133
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000004      push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, sp, lr, pc}
+Combat Winner: amphibia.arm-32
+Combat initialized 23 kamehameha.x86-32 vs old-flacucho.arm-32
+    Round-1 old-flacucho.arm-32 Wins Cycles:39
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000000e8      invalid
+    Round-2 kamehameha.x86-32 Wins Cycles:61
+     Dead Reason     : Syscall/Int Instruction executed.
+     Dead Instruction: 0x00000080      svceq 0x60fc83
+    Round-3 old-flacucho.arm-32 Wins Cycles:32
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000000e0      invalid
+Combat Winner: old-flacucho.arm-32
+Combat initialized 24 newbot.x86-32 vs ricardoapl.x86-32
+    Round-1 TIMEOUT Cycles:2001
+    Round-1 TIMEOUT Cycles:2001
+    Round-1 newbot.x86-32 Wins Cycles:39
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000001ed      add al, byte [eax]
+    Round-2 TIMEOUT Cycles:2001
+Combat Winner: Draw
+Combat initialized 25 amaterasu.x86-32 vs x3ero0.arm-32
+    Round-1 amaterasu.x86-32 Wins Cycles:38
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000003c4      invalid
+    Round-2 amaterasu.x86-32 Wins Cycles:37
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000003c4      invalid
+Combat Winner: amaterasu.x86-32
+Combat initialized 26 amphibia.arm-32 vs old-flacucho.arm-32
+    Round-1 amphibia.arm-32 Wins Cycles:36
+     Dead Reason     : Executed invalid instruction out of ARENA
+     Dead Instruction: 0x333333d4      invalid
+    Round-2 amphibia.arm-32 Wins Cycles:301
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000010      push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, sp, lr, pc}
+Combat Winner: amphibia.arm-32
+Combat initialized 27 kamehameha.x86-32 vs ricardoapl.x86-32
+    Round-1 kamehameha.x86-32 Wins Cycles:416
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000069      pushal
+    Round-2 kamehameha.x86-32 Wins Cycles:415
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x00000069      pushal
+Combat Winner: kamehameha.x86-32
+Combat initialized 28 newbot.x86-32 vs theta.arm-32
+    Round-1 theta.arm-32 Wins Cycles:111
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x0000036d      adc byte [edi], 0
+    Round-2 theta.arm-32 Wins Cycles:112
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x0000036d      adc byte [edi], 0
+Combat Winner: theta.arm-32
+Combat initialized 29 amaterasu.x86-32 vs zeta.arm-32
+    Round-1 zeta.arm-32 Wins Cycles:65
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000002e0      invalid
+    Round-2 amaterasu.x86-32 Wins Cycles:59
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x00000330      invalid
+    Round-3 zeta.arm-32 Wins Cycles:180
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000000a2      invalid
+Combat Winner: zeta.arm-32
+Combat initialized 30 amphibia.arm-32 vs zeta.arm-32
+    Round-1 amphibia.arm-32 Wins Cycles:68
+     Dead Reason     : Instruction executed out of the ARENA
+     Dead Instruction: 0x001782c4      andeq r0, r0, r0
+    Round-2 amphibia.arm-32 Wins Cycles:95
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x0000006c      invalid
+Combat Winner: amphibia.arm-32
+Combat initialized 31 kamehameha.x86-32 vs zeta.arm-32
+    Round-1 kamehameha.x86-32 Wins Cycles:54
+     Dead Reason     : Syscall/Int Instruction executed.
+     Dead Instruction: 0x00000080      svceq 0x60fc83
+    Round-2 kamehameha.x86-32 Wins Cycles:63
+     Dead Reason     : Syscall/Int Instruction executed.
+     Dead Instruction: 0x00000080      svceq 0x60fc83
+Combat Winner: kamehameha.x86-32
+Combat initialized 32 newbot.x86-32 vs zeta.arm-32
+    Round-1 zeta.arm-32 Wins Cycles:145
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000002f3      inc dword [eax]
+    Round-2 zeta.arm-32 Wins Cycles:146
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000002f3      inc dword [eax]
+Combat Winner: zeta.arm-32
+Combat initialized 33 old-flacucho.arm-32 vs zeta.arm-32
+    Round-1 old-flacucho.arm-32 Wins Cycles:82
+     Dead Reason     : Instruction executed out of the ARENA
+     Dead Instruction: 0x00178068      cmp sp, sl
+    Round-2 old-flacucho.arm-32 Wins Cycles:109
+     Dead Reason     : Instruction executed out of the ARENA
+     Dead Instruction: 0x001782c4      cmp sp, sl
+Combat Winner: old-flacucho.arm-32
+Combat initialized 34 ricardoapl.x86-32 vs zeta.arm-32
+    Round-1 ricardoapl.x86-32 Wins Cycles:60
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000001d8      invalid
+    Round-2 zeta.arm-32 Wins Cycles:228
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x000003ab      inc dword [eax]
+    Round-3 ricardoapl.x86-32 Wins Cycles:41
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x000001f0      invalid
+Combat Winner: ricardoapl.x86-32
+Combat initialized 35 theta.arm-32 vs zeta.arm-32
+    Round-1 theta.arm-32 Wins Cycles:124
+     Dead Reason     : Instruction executed out of the ARENA
+     Dead Instruction: 0x00178224      cmp sp, sl
+    Round-2 theta.arm-32 Wins Cycles:67
+     Dead Reason     : Instruction executed out of the ARENA
+     Dead Instruction: 0x001784b4      cmp sp, sl
+Combat Winner: theta.arm-32
+Combat initialized 36 x3ero0.arm-32 vs zeta.arm-32
+    Round-1 x3ero0.arm-32 Wins Cycles:322
+     Dead Reason     : Instruction Read/Write out of ARENA.
+     Dead Instruction: 0x0000015c      push {r0, r1, r2, r3, r4, r5, r6, r7, r8, sb, sl, fp, ip, sp, lr, pc}
+    Round-2 zeta.arm-32 Wins Cycles:182
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x00000200      invalid
+    Round-3 zeta.arm-32 Wins Cycles:130
+     Dead Reason     : Executed invalid instruction
+     Dead Instruction: 0x00000228      invalid
+Combat Winner: zeta.arm-32
+Tournament end 02/10/2021 21:26:16
